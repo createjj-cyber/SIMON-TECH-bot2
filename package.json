@@ -1,18 +1,37 @@
 {
   "name": "simon-tech-bot2",
-  "version": "2.0.0",
-  "description": "SIMON-TECH WhatsApp Bot",
-  "main": "session-generator-v2.js",
+  "version": "2.1.0",
+  "description": "SIMON-TECH WhatsApp Bot - Upgraded Edition",
+  "main": "index.js",
   "scripts": {
-    "start": "node session-generator-v2.js",
-    "session": "node session-generator-v2.js"
+    "start": "node index.js",
+    "session": "node session-generator-v2.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.21.0",
     "@whiskeysockets/baileys": "^6.7.16",
-    "qrcode": "^1.5.3"
+    "qrcode": "^1.5.3",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "chalk": "^5.3.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   },
   "engines": {
-    "node": ">=14.0.0"
-  }
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "automation",
+    "simon-tech"
+  ],
+  "author": "Simon Tech",
+  "license": "MIT"
 }
