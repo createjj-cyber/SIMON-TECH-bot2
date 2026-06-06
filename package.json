@@ -1,0 +1,18 @@
+{
+  "name": "simon-tech-bot2",
+  "version": "2.0.0",
+  "description": "SIMON-TECH WhatsApp Bot",
+  "main": "session-generator-v2.js",
+  "scripts": {
+    "start": "node session-generator-v2.js",
+    "session": "node session-generator-v2.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
